@@ -1,0 +1,21 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "Book",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Book Central Leilões"
+  },
+  "author": "Thales Miguel",
+  "license": "ISC",
+  "window": {
+    "toolbar": false,
+    "width": 1280,
+    "height": 1024
+  }
+  
+}

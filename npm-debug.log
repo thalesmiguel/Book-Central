@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'printer' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData printer
+8 silly fetchNamedPackageData printer
+9 silly mapToRegistry name printer
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/printer
+13 verbose request uri https://registry.npmjs.org/printer
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:52:47
+16 verbose request id d8f68800b37cc139
+17 verbose etag "APAB3GDWEFJB6ZFA9HDIGJF8M"
+18 http request GET https://registry.npmjs.org/printer
+19 http 304 https://registry.npmjs.org/printer
+20 verbose headers { date: 'Tue, 16 Feb 2016 12:52:50 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   etag: '"APAB3GDWEFJB6ZFA9HDIGJF8M"',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1455627170.027133,VS0,VE44',
+20 verbose headers   vary: 'Accept' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Tue, 16 Feb 2016 12:52:50 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     etag: '"APAB3GDWEFJB6ZFA9HDIGJF8M"',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sjc3123-SJC',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1455627170.027133,VS0,VE44',
+21 silly get     vary: 'Accept' } ]
+22 verbose etag https://registry.npmjs.org/printer from cache
+23 verbose get saving printer to C:\Users\thale\AppData\Roaming\npm-cache\registry.npmjs.org\printer\.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule printer@0.2.1 checking installable status
+37 silly cache add args [ 'printer', null ]
+38 verbose cache add spec printer
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'printer',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'printer',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed printer@*
+41 verbose addNamed "*" is a valid semver range for printer
+42 silly addNameRange { name: 'printer', range: '*', hasData: false }
+43 silly mapToRegistry name printer
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/printer
+47 verbose addNameRange registry:https://registry.npmjs.org/printer not in flight; fetching
+48 verbose get https://registry.npmjs.org/printer not expired, no request
+49 silly addNameRange number 2 { name: 'printer', range: '*', hasData: true }
+50 silly addNameRange versions [ 'printer',
+50 silly addNameRange   [ '0.0.1',
+50 silly addNameRange     '0.0.2',
+50 silly addNameRange     '0.0.3',
+50 silly addNameRange     '0.0.4',
+50 silly addNameRange     '0.0.5',
+50 silly addNameRange     '0.0.6',
+50 silly addNameRange     '0.1.0',
+50 silly addNameRange     '0.1.1',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1' ] ]
+51 silly addNamed printer@0.2.1
+52 verbose addNamed "0.2.1" is a plain semver version for printer
+53 silly cache afterAdd printer@0.2.1
+54 verbose afterAdd C:\Users\thale\AppData\Roaming\npm-cache\printer\0.2.1\package\package.json not in flight; writing
+55 verbose afterAdd C:\Users\thale\AppData\Roaming\npm-cache\printer\0.2.1\package\package.json written
+56 silly loadAllDepsIntoIdealTree Finishing
+57 silly idealTree:prePrune book@1.0.0
+57 silly idealTree:prePrune └── printer@0.2.1
+58 silly loadIdealTree Finishing
+59 silly currentTree book@1.0.0
+60 silly idealTree book@1.0.0
+60 silly idealTree └── printer@0.2.1
+61 silly generateActionsToTake Starting
+62 silly install generateActionsToTake
+63 silly generateActionsToTake Finishing
+64 silly diffTrees action count 1
+65 silly diffTrees add printer@0.2.1
+66 silly decomposeActions action count 8
+67 silly decomposeActions fetch printer@0.2.1
+68 silly decomposeActions extract printer@0.2.1
+69 silly decomposeActions preinstall printer@0.2.1
+70 silly decomposeActions build printer@0.2.1
+71 silly decomposeActions install printer@0.2.1
+72 silly decomposeActions postinstall printer@0.2.1
+73 silly decomposeActions test printer@0.2.1
+74 silly decomposeActions finalize printer@0.2.1
+75 silly executeActions Starting
+76 silly install executeActions
+77 silly doSerial global-install 0
+78 silly doParallel fetch 1
+79 verbose lock using C:\Users\thale\AppData\Roaming\npm-cache\_locks\staging-cbbdcdc10f0fe00b.lock for C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging
+80 silly doParallel extract 1
+81 silly extract printer@0.2.1
+82 verbose unbuild node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+83 silly gentlyRm C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578 is being purged from base C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book
+84 verbose gentlyRm don't care about contents; nuking C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+85 verbose tar unpack C:\Users\thale\AppData\Roaming\npm-cache\printer\0.2.1\package.tgz
+86 verbose tar unpacking to C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+87 silly gentlyRm C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578 is being purged
+88 verbose gentlyRm don't care about contents; nuking C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+89 silly gunzTarPerm modes [ '777', '666' ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+92 silly gunzTarPerm extractEntry .npmignore
+93 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+94 silly gunzTarPerm extractEntry README.md
+95 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+96 silly gunzTarPerm extractEntry Gruntfile.js
+97 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry printer.js
+99 silly gunzTarPerm modified mode [ 'printer.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry build/Makefile
+101 silly gunzTarPerm modified mode [ 'build/Makefile', 420, 438 ]
+102 silly gunzTarPerm extractEntry build/Release/.deps/Release/node_printer.node.d
+103 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/node_printer.node.d', 420, 438 ]
+104 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/node_printer/src/node_printer.o.d
+105 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/obj.target/node_printer/src/node_printer.o.d',
+105 silly gunzTarPerm   420,
+105 silly gunzTarPerm   438 ]
+106 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/node_printer/src/node_printer_posix.o.d
+107 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/obj.target/node_printer/src/node_printer_posix.o.d',
+107 silly gunzTarPerm   420,
+107 silly gunzTarPerm   438 ]
+108 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/node_printer.node.d
+109 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/obj.target/node_printer.node.d',
+109 silly gunzTarPerm   420,
+109 silly gunzTarPerm   438 ]
+110 silly gunzTarPerm extractEntry build/Release/linker.lock
+111 silly gunzTarPerm modified mode [ 'build/Release/linker.lock', 420, 438 ]
+112 silly gunzTarPerm extractEntry build/Release/node_printer.node
+113 silly gunzTarPerm modified mode [ 'build/Release/node_printer.node', 493, 511 ]
+114 silly gunzTarPerm extractEntry build/Release/obj.target/node_printer/src/node_printer.o
+115 silly gunzTarPerm modified mode [ 'build/Release/obj.target/node_printer/src/node_printer.o',
+115 silly gunzTarPerm   420,
+115 silly gunzTarPerm   438 ]
+116 silly gunzTarPerm extractEntry build/Release/obj.target/node_printer/src/node_printer_posix.o
+117 silly gunzTarPerm modified mode [ 'build/Release/obj.target/node_printer/src/node_printer_posix.o',
+117 silly gunzTarPerm   420,
+117 silly gunzTarPerm   438 ]
+118 silly gunzTarPerm extractEntry build/Release/obj.target/node_printer.node
+119 silly gunzTarPerm modified mode [ 'build/Release/obj.target/node_printer.node', 493, 511 ]
+120 silly gunzTarPerm extractEntry build/binding.Makefile
+121 silly gunzTarPerm modified mode [ 'build/binding.Makefile', 420, 438 ]
+122 silly gunzTarPerm extractEntry build/config.gypi
+123 silly gunzTarPerm modified mode [ 'build/config.gypi', 420, 438 ]
+124 silly gunzTarPerm extractEntry build/node_printer.target.mk
+125 silly gunzTarPerm modified mode [ 'build/node_printer.target.mk', 420, 438 ]
+126 silly gunzTarPerm extractEntry appveyor.yml
+127 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+128 silly gunzTarPerm extractEntry binding.gyp
+129 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+130 silly gunzTarPerm extractEntry ChangeLog
+131 silly gunzTarPerm modified mode [ 'ChangeLog', 420, 438 ]
+132 silly gunzTarPerm extractEntry examples/cancelJob.js
+133 silly gunzTarPerm modified mode [ 'examples/cancelJob.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry examples/getDefaultPrinterName.js
+135 silly gunzTarPerm modified mode [ 'examples/getDefaultPrinterName.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry examples/getPrinterDriverOptions.js
+137 silly gunzTarPerm modified mode [ 'examples/getPrinterDriverOptions.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry examples/getPrinters.js
+139 silly gunzTarPerm modified mode [ 'examples/getPrinters.js', 420, 438 ]
+140 silly gunzTarPerm extractEntry examples/getSupportedFormats.js
+141 silly gunzTarPerm modified mode [ 'examples/getSupportedFormats.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry examples/example_zebra_printer.js
+143 silly gunzTarPerm modified mode [ 'examples/example_zebra_printer.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry examples/printFile.js
+145 silly gunzTarPerm modified mode [ 'examples/printFile.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry examples/printPDFFileInBuffer.js
+147 silly gunzTarPerm modified mode [ 'examples/printPDFFileInBuffer.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry examples/printPDFInWindows.js
+149 silly gunzTarPerm modified mode [ 'examples/printPDFInWindows.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry examples/print_raw.js
+151 silly gunzTarPerm modified mode [ 'examples/print_raw.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry examples/getSupportedJobCommands.js
+153 silly gunzTarPerm modified mode [ 'examples/getSupportedJobCommands.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry examples/test.pdf
+155 silly gunzTarPerm modified mode [ 'examples/test.pdf', 420, 438 ]
+156 silly gunzTarPerm extractEntry lib/index.js
+157 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry lib/printer.js
+159 silly gunzTarPerm modified mode [ 'lib/printer.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry src/macros.hh
+161 silly gunzTarPerm modified mode [ 'src/macros.hh', 420, 438 ]
+162 silly gunzTarPerm extractEntry src/node_printer.cc
+163 silly gunzTarPerm modified mode [ 'src/node_printer.cc', 420, 438 ]
+164 silly gunzTarPerm extractEntry src/node_printer.hpp
+165 silly gunzTarPerm modified mode [ 'src/node_printer.hpp', 420, 438 ]
+166 silly gunzTarPerm extractEntry src/node_printer_posix.cc
+167 silly gunzTarPerm modified mode [ 'src/node_printer_posix.cc', 420, 438 ]
+168 silly gunzTarPerm extractEntry src/node_printer_win.cc
+169 silly gunzTarPerm modified mode [ 'src/node_printer_win.cc', 420, 438 ]
+170 silly gunzTarPerm extractEntry .travis.yml
+171 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+172 silly gunzTarPerm extractEntry tools/getSourceFiles.py
+173 silly gunzTarPerm modified mode [ 'tools/getSourceFiles.py', 420, 438 ]
+174 silly doParallel preinstall 1
+175 silly preinstall printer@0.2.1 C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+176 info lifecycle printer@0.2.1~preinstall: printer@0.2.1
+177 silly lifecycle printer@0.2.1~preinstall: no script for preinstall, continuing
+178 silly doReverseSerial remove 0
+179 silly doSerial move 0
+180 silly doSerial finalize 1
+181 silly finalize C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\printer
+182 silly doSerial build 1
+183 silly build printer@0.2.1
+184 info linkStuff printer@0.2.1
+185 silly linkStuff printer@0.2.1 has C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules as its parent node_modules
+186 verbose linkBins printer@0.2.1
+187 verbose linkMans printer@0.2.1
+188 silly doSerial global-link 0
+189 silly doParallel update-linked 0
+190 silly doSerial install 1
+191 silly install printer@0.2.1 C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging\printer-3e1be0cc578fecfe7b8220c6f5115578
+192 info lifecycle printer@0.2.1~install: printer@0.2.1
+193 verbose lifecycle printer@0.2.1~install: unsafe-perm in lifecycle true
+194 verbose lifecycle printer@0.2.1~install: PATH: C:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\printer\node_modules\.bin;C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\thale\AppData\Roaming\npm
+195 verbose lifecycle printer@0.2.1~install: CWD: C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\printer
+196 silly lifecycle printer@0.2.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+197 silly lifecycle printer@0.2.1~install: Returned: code: 1  signal: null
+198 info lifecycle printer@0.2.1~install: Failed to exec install script
+199 verbose unlock done using C:\Users\thale\AppData\Roaming\npm-cache\_locks\staging-cbbdcdc10f0fe00b.lock for C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book\node_modules\.staging
+200 silly rollbackFailedOptional Starting
+201 silly rollbackFailedOptional Finishing
+202 silly runTopLevelLifecycles Starting
+203 silly runTopLevelLifecycles Finishing
+204 silly install printInstalled
+205 verbose stack Error: printer@0.2.1 install: `node-gyp rebuild`
+205 verbose stack Exit status 1
+205 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:232:16)
+205 verbose stack     at emitTwo (events.js:100:13)
+205 verbose stack     at EventEmitter.emit (events.js:185:7)
+205 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+205 verbose stack     at emitTwo (events.js:100:13)
+205 verbose stack     at ChildProcess.emit (events.js:185:7)
+205 verbose stack     at maybeClose (internal/child_process.js:821:16)
+205 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+206 verbose pkgid printer@0.2.1
+207 verbose cwd C:\Users\thale\OneDrive\Documentos\Node\Projetos\Book
+208 error Windows_NT 10.0.10586
+209 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "printer"
+210 error node v5.5.0
+211 error npm  v3.3.12
+212 error code ELIFECYCLE
+213 error printer@0.2.1 install: `node-gyp rebuild`
+213 error Exit status 1
+214 error Failed at the printer@0.2.1 install script 'node-gyp rebuild'.
+214 error Make sure you have the latest version of node.js and npm installed.
+214 error If you do, this is most likely a problem with the printer package,
+214 error not with npm itself.
+214 error Tell the author that this fails on your system:
+214 error     node-gyp rebuild
+214 error You can get their info via:
+214 error     npm owner ls printer
+214 error There is likely additional logging output above.
+215 verbose exit [ 1, true ]
